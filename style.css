@@ -102,3 +102,37 @@ footer {
         margin-right: 10px;
     }
 }
+
+#blog .content-block {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.blog-post {
+    margin-bottom: 2rem;
+}
+
+.blog-post h3 {
+    margin: 0.5rem 0;
+}
+
+.blog-post p {
+    margin: 0.5rem 0;
+}
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    /* Styles for larger screens */
+}
